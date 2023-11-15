@@ -1,21 +1,21 @@
-import { EightthSlide } from "../slides/EightthSlide";
-import { FifthSlide } from "../slides/FifthSlide";
-import { FirstSlide } from "../slides/FirstSlide";
 import { Intro } from "../slides/Intro";
-import { NinthSlide } from "../slides/NinthSlide";
+import { FirstSlide } from "../slides/FirstSlide";
 import { SecondSlide } from "../slides/SecondSlide";
-import { SeventhSlide } from "../slides/SeventhSlide";
-import { SixthSlide } from "../slides/SixthSlide";
-
 import { ThirdSlide } from "../slides/ThirdSlide";
-import { TenSlide } from "../slides/TenSLide";
-import { EleventhSlide } from "../slides/EleventhSlide";
+import { FourthSlide } from "../slides/FourthSlide";
+import { FifthSlide } from "../slides/FifthSlide";
+import { SixthSlide } from "../slides/SixthSlide";
+import { SeventhSlide } from "../slides/SeventhSlide";
+import { EightSlide } from "../slides/EightthSlide";
+import { NinethSLide } from "../slides/NinethSlide";
+import { TenSlide } from "../slides/TenthSlide";
+
 import { TestFirst } from "../slides/test/TestFirst";
 import { TestIntro } from "../slides/test/TestIntro";
 import { TestSecond } from "../slides/test/TestSecond";
 import { TestThird } from "../slides/test/TestThird";
-import { FourthSlide } from "../slides/FourthSlide";
 import { TestFourth } from "../slides/test/TestFourth";
+import { End } from "../slides/End";
 
 export const slides = [
   <Intro />,
@@ -27,13 +27,13 @@ export const slides = [
   <FifthSlide />,
   <SixthSlide />,
   <SeventhSlide />,
-  <EightthSlide />,
-  <NinthSlide />,
+  <EightSlide />,
+  <NinethSLide />,
   <TenSlide />,
-  <EleventhSlide />,
   <TestIntro />,
   <TestFirst />,
   <TestSecond />,
   <TestThird />,
   <TestFourth />,
+  <End />,
 ];

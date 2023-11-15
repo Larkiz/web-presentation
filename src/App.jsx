@@ -1,7 +1,6 @@
 import "./App.css";
 
 import { useEffect, useState } from "react";
-import { Routes } from "react-router-dom";
 import { slides } from "./components/Routes";
 
 function App() {

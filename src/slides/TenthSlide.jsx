@@ -1,6 +1,6 @@
 import node from "../assets/imgs/node.svg";
 
-export const EleventhSlide = () => {
+export const TenSlide = () => {
   return (
     <div className="backend-bg">
       <h1>Features of node.js</h1>

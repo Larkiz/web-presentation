@@ -29,7 +29,7 @@ h1 {
 }
 
 .text {
-  font-size: 40px;
+  font-size: 45px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -65,7 +65,8 @@ h1 {
 }
 
 .fs-text {
-  width: 886px;
+  margin-bottom: 50px;
+  width: 821px;
   height: 205px;
 }
 
@@ -79,7 +80,6 @@ h1 {
 }
 
 .ts-cont {
-  /* background-color: #000; */
   width: 1066px;
   height: 140px;
 }
@@ -91,7 +91,6 @@ h1 {
 }
 
 .ts-text {
-  /* color: #f7df1e; */
   font-size: 30px;
   margin-bottom: 37px;
   font-family: Anonym;
@@ -120,6 +119,7 @@ h1 {
   height: 45px;
   font-size: 50px;
   font-family: Anonym;
+  margin-bottom: 20px;
 }
 .list-title p {
   width: 990px;

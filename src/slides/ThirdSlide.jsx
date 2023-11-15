@@ -5,7 +5,7 @@ export const ThirdSlide = () => {
   return (
     <div className="App">
       <h1>JavaScript</h1>
-      <div className="fs-text">
+      <div className="fs-text" style={{ width: 973 + "px" }}>
         <TypingText>
           JavaScript is a programming language for developing interfaces and web
           applications. Used for developing api servers, mobile, web and desktop

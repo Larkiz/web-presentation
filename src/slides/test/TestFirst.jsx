@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { ListComponent } from "../../components/ListComponent";
 import { useKeyboardListener } from "../../components/hooks/useKeyboardListener";
 
