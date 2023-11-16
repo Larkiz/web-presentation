@@ -1,5 +1,5 @@
-import { TypingText } from "../components/TypingText";
 import jsImage from "../assets/imgs/image_js.svg";
+import { TypingText } from "../components/TypingText";
 
 export const ThirdSlide = () => {
   return (

@@ -1,6 +1,6 @@
+import computer from "../assets/imgs/computer.svg";
 import { TypingText } from "../components/TypingText";
 import { useState } from "react";
-import computer from "../assets/imgs/computer.svg";
 
 export const FirstSlide = () => {
   const [endTyping, setEnd] = useState([]);
@@ -23,7 +23,7 @@ export const FirstSlide = () => {
             <div className="fs-text">
               <TypingText setEnd={setEnd}>
                 All these pages should be user-friendly, functional, load
-                quickly, store data securely, and be suitable for any device
+                quickly, store data securely, and be suitable for any device.
               </TypingText>
             </div>
           ) : (
