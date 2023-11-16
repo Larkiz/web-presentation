@@ -27,7 +27,9 @@ export const FourthSlide = () => {
           Active and friendly developer community
         </ListComponent>
       </div>
-      <img className="abs-img" src={jsImage} alt="js" />
+      {window.innerWidth >= 1200 && (
+        <img className="abs-img abs-img-adaptv " src={jsImage} alt="js" />
+      )}
     </div>
   );
 };

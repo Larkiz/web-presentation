@@ -53,9 +53,9 @@ h1 {
 
 .cit {
   display: inline-block;
-  position: relative;
-  left: 900px;
-  top: 100px;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
   color: #000;
   font-family: Michroma;
   font-size: 25px;
@@ -70,10 +70,15 @@ h1 {
   height: 205px;
 }
 
+.wide-text {
+  margin-bottom: 50px;
+  width: 973px;
+  height: 205px;
+}
+
 .hts {
   margin-top: 10px;
   margin-bottom: 16px;
-  /* color: #f7df1e; */
   font-size: 35px;
   font-family: Anonym;
   margin-left: 22px;
@@ -125,6 +130,10 @@ h1 {
   width: 990px;
   font-size: 45px;
   font-family: Anonym;
+}
+
+.to-top {
+  margin-top: -50px;
 }
 
 .ss-text {

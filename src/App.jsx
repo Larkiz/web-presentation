@@ -1,5 +1,5 @@
 import "./App.css";
-
+import "./Adaptive.css";
 import { useEffect, useState } from "react";
 import { slides } from "./components/Routes";
 
@@ -16,6 +16,7 @@ function App() {
 
   function arrowCheck(e) {
     if (e.code === "ArrowRight") return nextSlide();
+    if (e.code === "Space") return nextSlide();
     if (e.code === "ArrowLeft") return prevSlide();
   }
 

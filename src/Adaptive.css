@@ -1,0 +1,62 @@
+@media screen and (max-width: 1260px) {
+  h1 {
+    font-size: 40px;
+  }
+  .intro-img {
+    width: 350px;
+  }
+  .flex-cont-row {
+    gap: 70px;
+  }
+  .text {
+    font-size: 35px;
+  }
+  .fs-text {
+    width: 621px;
+  }
+  .ts-cont {
+    width: 952px;
+  }
+  .wide-text {
+    width: 900px;
+  }
+  .wide-text .text {
+    font-size: 40px;
+  }
+  .adapt-img-fifth {
+    width: 500px;
+  }
+
+  .list-title h2 {
+    font-size: 40px;
+  }
+  .list-title p {
+    font-size: 40px;
+    width: 900px;
+  }
+  .list-card label {
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+  }
+  .to-top {
+    margin-top: -50px;
+  }
+  .abs-img-adaptv {
+    width: 200px;
+  }
+  .text-test {
+    color: #fff;
+    font-family: Anonym;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .abs-img-adaptv {
+    width: 200px;
+  }
+}

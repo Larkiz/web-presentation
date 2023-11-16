@@ -5,14 +5,14 @@ export const ThirdSlide = () => {
   return (
     <div className="App">
       <h1>JavaScript</h1>
-      <div className="fs-text" style={{ width: 973 + "px" }}>
+      <div className="wide-text">
         <TypingText>
           JavaScript is a programming language for developing interfaces and web
           applications. Used for developing api servers, mobile, web and desktop
           applications.
         </TypingText>
       </div>
-      <img className="abs-img" src={jsImage} alt="js" />
+      <img className="abs-img abs-img-adaptv " src={jsImage} alt="js" />
     </div>
   );
 };

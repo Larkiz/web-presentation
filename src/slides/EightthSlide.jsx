@@ -1,7 +1,7 @@
 import node from "../assets/imgs/node.svg";
 export const EightSlide = () => {
   return (
-    <div className="backend-bg centered-list">
+    <div className="backend-bg centered-list to-top">
       <div className="flxcont ">
         <div className="list-card">
           <label htmlFor="1">1</label>
@@ -30,7 +30,7 @@ export const EightSlide = () => {
           </div>
         </div>
       </div>
-      <img className="abs-img" src={node} alt="js" />
+      <img className="abs-img abs-img-adaptv" src={node} alt="js" />
     </div>
   );
 };

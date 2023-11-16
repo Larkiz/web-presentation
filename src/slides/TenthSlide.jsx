@@ -50,7 +50,7 @@ export const TenSlide = () => {
           </div>
         </div>
       </div>
-      <img className="abs-img" src={node} alt="js" />
+      <img className="abs-img  abs-img-adaptv" src={node} alt="js" />
     </div>
   );
 };
